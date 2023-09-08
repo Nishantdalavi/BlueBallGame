@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#numberSlider {
+    width: 50%;
+    margin: 20px auto;
+}
+
+#numberRange {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+
+#numberRange span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(135, 135, 255);
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+#attempts {
+    margin-top: 20px;
+}
+
+#instructions {
+    background-color: rgb(145, 124, 173);
+    border: 2px dashed #333;
+    padding: 5px;
+    margin: 20px auto;
+    max-height: 800px;
+    max-width: 500px;
+}
